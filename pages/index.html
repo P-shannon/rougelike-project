@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		body {
+			font-family: Andale Mono, AndaleMono, monospace;
+			background:black;
+			color:green;
+		}
+		div {
+			width:500px;height:500px;
+			border:2px solid white;
+			overflow: scroll;
+		}
+	</style>
+
+	<title></title>
+</head>
+<body>
+<div class="viewport" id="viewone"></div>
+<button type="button" onclick="makeWorld();"> Make World </button>
+<button type="button" onclick="populateWorld();"> Add features </button>
+<button type="button" onclick="createPlayer();"> Start Game </button>
+<button type="button" id="primary" style="display:none" onclick="player.attack(dummy);"> Attack Dummy </button>
+
+
+<script type="text/javascript" src="../javascript/main.js"></script>
+</body>
+</html>
